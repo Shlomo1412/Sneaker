@@ -4,6 +4,7 @@
   "package": "net.shlomo1412.sneaker.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "ClientPlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
