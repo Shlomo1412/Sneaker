@@ -16,10 +16,14 @@
 1.20.1/Sneaker/run/ 
 1.20.1/Sneaker/classes/
 1.20.1/Sneaker/bin/
+1.20.1/Sneaker/.idea/
 .gradle/
 **/build/
 **/run/
 **/out/
 **/bin/
 **/.gradle/
+**/.idea/
 **/classes/
+1.21.4/Sneaker/.idea/runConfigurations/Minecraft_Server.xml
+1.20.1/Sneaker/.idea/vcs.xml
