@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "sneaker",
+  "version": "${version}",
+  "name": "Sneaker",
+  "description": "An essential mod aiming to help you improve your speed-bridge's timing.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sneaker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.shlomo1412.sneaker.client.SneakerClient"
+    ],
+    "main": [
+      "net.shlomo1412.sneaker.Sneaker"
+    ]
+  },
+  "mixins": [
+    "sneaker.mixins.json",
+    {
+      "config": "sneaker.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
