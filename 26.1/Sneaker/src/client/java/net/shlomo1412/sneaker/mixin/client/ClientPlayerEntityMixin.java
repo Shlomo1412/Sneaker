@@ -80,9 +80,7 @@ public abstract class ClientPlayerEntityMixin {
             );
             
             // Check if this corner is over air at the SAME level as the block we're standing on
-            // This is the key change: we only care if the block at foot level is missing
-            // (meaning we'd walk off our current block), regardless of what's below
-            if (!world.getBlockState(cornerBlockPos).isSolid()) {
+            if (!world.getBlockState(cornerBlockPos).isSolidRender()) {
                 shouldSneak = true;
                 break;
             }
