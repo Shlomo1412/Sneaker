@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.shlomo1412.sneaker.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
