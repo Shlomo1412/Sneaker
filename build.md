@@ -6,7 +6,7 @@ Each version is a separate Fabric mod project. Navigate into the version's subfo
 
 ```
 cd 1.20.1/Sneaker
-gradlew build
+.\gradlew build
 ```
 
 Output: `build/libs/`
@@ -17,7 +17,7 @@ Output: `build/libs/`
 
 ```
 cd 1.21.10/Sneaker
-gradlew build
+.\gradlew build
 ```
 
 Output: `build/libs/`
@@ -28,7 +28,7 @@ Output: `build/libs/`
 
 ```
 cd 1.21.11/Sneaker
-gradlew build
+.\gradlew build
 ```
 
 Output: `build/libs/`
@@ -39,7 +39,7 @@ Output: `build/libs/`
 
 ```
 cd 1.21.4/Sneaker
-gradlew build
+.\gradlew build
 ```
 
 Output: `build/libs/`
